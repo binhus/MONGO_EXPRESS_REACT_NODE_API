@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const controller = require('../../React-Native_Mongo_Express_Node/Controllers/index');
+const controller = require('../MONGO_EXPRESS_REACT_NODE_API/Controllers/index');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
