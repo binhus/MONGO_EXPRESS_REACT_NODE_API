@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 
 const controller = Router();
 
-
 controller.get('/', services.savePages, (req, res) => {
   res.status(200).json(req.data);
 });
