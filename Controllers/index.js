@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const controller = Router();
 
 
-// endpoint de login
 controller.get('/', services.savePages, (req, res) => {
   res.status(200).json(req.data);
 });
