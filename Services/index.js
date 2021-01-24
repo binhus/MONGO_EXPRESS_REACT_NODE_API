@@ -25,6 +25,7 @@ const searchPage = rescue(async (req, _res, next) => {
   next();
 });
 
+
 const findByName = rescue(async (req, _res, next) => {
   const { name } = req.params
   const search = await model.getByName(name);
