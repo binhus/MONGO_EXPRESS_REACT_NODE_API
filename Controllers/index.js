@@ -8,7 +8,7 @@ controller.get('/', services.savePages, (req, res) => {
   res.status(200).json(req.data);
 });
 
-controller.post('/:name', services.findByName, (req, res) => {
+controller.get('/:name', services.findByName, (req, res) => {
   res.status(200).json(req.data);
 });
 
